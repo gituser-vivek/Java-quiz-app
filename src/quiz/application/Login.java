@@ -1,8 +1,8 @@
 package quiz.application;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class Login extends JFrame implements ActionListener{
  
@@ -13,7 +13,7 @@ public class Login extends JFrame implements ActionListener{
         getContentPane().setBackground(Color.WHITE);
         setLayout(null);
         
-        ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icons/login.jpeg"));
+        ImageIcon i1 = new ImageIcon("c:\\Users\\Administrator\\Desktop\\new\\New folder\\Quiz-Application-Using-Java\\src\\icons\\login.jpeg");
         JLabel image = new JLabel(i1);
         image.setBounds(0, 0, 600, 500);
         add(image);
